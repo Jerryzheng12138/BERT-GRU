@@ -1,0 +1,11 @@
+weight_file,threshold
+bertGRU antigram-negative.ckpt_fold1,0.5138563
+bertGRU antigram-negative.ckpt_fold2,0.52556795
+bertGRU antigram-negative.ckpt_fold3,0.494184
+bertGRU antigram-negative.ckpt_fold4,0.51715267
+bertGRU antigram-negative.ckpt_fold5,0.5128129
+bertGRU antigram-negative.ckpt_fold6,0.5033362
+bertGRU antigram-negative.ckpt_fold7,0.50888956
+bertGRU antigram-negative.ckpt_fold8,0.5033362
+bertGRU antigram-negative.ckpt_fold9,0.5643724
+bertGRU antigram-negative.ckpt_fold10,0.5699894

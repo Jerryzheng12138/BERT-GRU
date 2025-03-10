@@ -1,0 +1,11 @@
+weight_file,threshold
+bertGRU anticancer.ckpt_fold1,0.54952425
+bertGRU anticancer.ckpt_fold2,0.51725113
+bertGRU anticancer.ckpt_fold3,0.5024101
+bertGRU anticancer.ckpt_fold4,0.51725113
+bertGRU anticancer.ckpt_fold5,0.55866766
+bertGRU anticancer.ckpt_fold6,0.56290585
+bertGRU anticancer.ckpt_fold7,0.5292073
+bertGRU anticancer.ckpt_fold8,0.51725113
+bertGRU anticancer.ckpt_fold9,0.6209427
+bertGRU anticancer.ckpt_fold10,0.56290585

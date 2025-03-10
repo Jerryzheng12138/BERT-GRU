@@ -1,0 +1,11 @@
+weight_file,threshold
+bertGRU antibacterial.ckpt_fold1,0.5007497
+bertGRU antibacterial.ckpt_fold2,0.50371367
+bertGRU antibacterial.ckpt_fold3,0.49007714
+bertGRU antibacterial.ckpt_fold4,0.5007497
+bertGRU antibacterial.ckpt_fold5,0.48303983
+bertGRU antibacterial.ckpt_fold6,0.5098481
+bertGRU antibacterial.ckpt_fold7,0.49007714
+bertGRU antibacterial.ckpt_fold8,0.48303983
+bertGRU antibacterial.ckpt_fold9,0.44788378
+bertGRU antibacterial.ckpt_fold10,0.51453733

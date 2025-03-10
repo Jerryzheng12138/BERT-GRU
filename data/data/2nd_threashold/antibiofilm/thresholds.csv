@@ -1,0 +1,11 @@
+weight_file,threshold
+bertGRU antibiofilm.ckpt_fold1,0.58154416
+bertGRU antibiofilm.ckpt_fold2,0.58792794
+bertGRU antibiofilm.ckpt_fold3,0.47137412
+bertGRU antibiofilm.ckpt_fold4,1.4383776
+bertGRU antibiofilm.ckpt_fold5,1.4871982
+bertGRU antibiofilm.ckpt_fold6,0.58154416
+bertGRU antibiofilm.ckpt_fold7,0.684046
+bertGRU antibiofilm.ckpt_fold8,0.75292885
+bertGRU antibiofilm.ckpt_fold9,1.4871982
+bertGRU antibiofilm.ckpt_fold10,0.75292885

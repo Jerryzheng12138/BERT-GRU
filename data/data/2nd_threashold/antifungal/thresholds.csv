@@ -1,0 +1,11 @@
+weight_file,threshold
+bertGRU antifungal.ckpt_fold1,0.48521906
+bertGRU antifungal.ckpt_fold2,0.49092528
+bertGRU antifungal.ckpt_fold3,0.4825157
+bertGRU antifungal.ckpt_fold4,0.481374
+bertGRU antifungal.ckpt_fold5,0.47492316
+bertGRU antifungal.ckpt_fold6,0.50216323
+bertGRU antifungal.ckpt_fold7,0.50978774
+bertGRU antifungal.ckpt_fold8,0.47492316
+bertGRU antifungal.ckpt_fold9,0.50216323
+bertGRU antifungal.ckpt_fold10,0.48676857

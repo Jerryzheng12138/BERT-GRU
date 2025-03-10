@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BERT-GRU Demo</title>
+    <link href="../static/src/main.css" rel="stylesheet" type="text/css">
+    <style>
+        html {
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            height: 100%;
+            background: #fff;
+        }
+
+        canvas {
+            display: block;
+            width: 100%;
+            height: 100%;
+        }
+
+        .body_content {
+            width: 900px;
+            height: 500px;
+            position: absolute;
+            background-color: white;
+            left: 35%;
+            margin-left: -200px;
+            top: 35%;
+            margin-top: -200px;
+        }
+
+        .box {
+            float: left;
+            padding: 35px 0 0;
+            width: 650px;
+            color: black;
+        }
+
+        .info {
+            border: 1px solid #e0e0e0;
+            background: #f4f4f4;
+            padding: 20px;
+            width: 864px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 20px;
+            position: relative;
+            clear: both;
+        }
+
+        .Seq_input {
+            position: relative;
+            display: inline-block;
+            background: #FFFFCC;
+            border: 1px solid #CCCCCC;
+            border-radius: 4px;
+            padding: 4px 12px;
+            overflow: hidden;
+            color: #003333;
+            text-decoration: none;
+            text-indent: 0;
+            line-height: 20px;
+        }
+
+        .Seq_input:hover {
+            background: blanchedalmond;
+            color: #b3b2b2;
+            text-decoration: none;
+        }
+
+        textarea {
+            max-width: 800px;  /* 设置最大宽度 */
+            width: 100%;        /* 让文本框宽度填满容器 */
+            height: 250px;      /* 设置高度 */
+            resize: vertical;   /* 允许用户垂直调整大小 */
+            overflow-x: auto;   /* 超出时显示横向滚动条 */
+            overflow-y: hidden; /* 隐藏纵向滚动条 */
+            white-space: nowrap; /* 不换行 */
+        }
+
+        /* 其他样式保持不变 */
+        .info .main {
+            font-weight: bold;
+            font-style: italic;
+            font-size: 120%;
+        }
+
+        .info a {
+            font-style: italic;
+            color: #454545;
+            font-weight: bold;
+            font-size: 105%;
+            text-decoration: none;
+            font-variant: normal;
+        }
+
+        .info a:hover {
+            text-shadow: silver 1px 1px 1px;
+        }
+
+        #footer {
+            font-size: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="body_content">
+    <div id="header">
+        <h1><a class="red" href="./">BERT-GRU Demo</a></h1>
+        <ul id="menu">
+            <li class="active"><a href="./" title="BERT-GRU Demo">BERT-GRU</a></li>
+            <li><a href="./Pse_help" target="_blank" title="Help">Help</a></li>
+        </ul>
+    </div>
+    <div class="box">
+        <h2>
+            <font size="5" color="#dc143c">
+                Welcome to <em title="BERT-GRU">BERT-GRU Demo</em>
+            </font>
+        </h2>
+        <p style="font-size:17px;width:900px">
+            A two-layer predictor for identifying antimicrobial peptides and their functional types.
+        </p>
+    </div>
+    <div class="info">
+        <div id="info1">
+            <p style="font-size:15px" class="main">Input sequence</p>
+            <p style="font-size:15px">After the user submits a sequence
+                (<a href="./Pse_example" target="_blank" title="example" style="color:blue">example</a>),
+                click the Submit Sequence button, and the final prediction result will be directly displayed on the web page.
+                <a href="./Pse_help" title="help">More info...</a></p>
+        </div>
+        <div>
+            <form method="post" action="upload_seq">
+                <textarea id="Seq_cadd" name="Seq_cadd" wrap="hard" placeholder="Enter sequences, one per line..."></textarea>
+                <div align="center" class="coll">
+                    <input class="Seq_input" type="submit" value=" Submit Sequence ">
+                    &nbsp;&nbsp;&nbsp;
+                    <input class="Seq_input" type="reset" value=" Reset Sequence ">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>NO Team now (<a href="http://www.bilibili.com/">No now</a>)<br>
+            ------------------------------------------------------------------------</p>
+    </div>
+</div>
+
+<canvas id="canvas"></canvas>
+<script src="../static/src/index.js"></script>
+
+</body>
+</html>

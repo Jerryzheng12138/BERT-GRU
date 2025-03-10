@@ -1,0 +1,11 @@
+weight_file,threshold
+bertGRU antiparasitic.ckpt_fold1,0.47072774
+bertGRU antiparasitic.ckpt_fold2,0.49651226
+bertGRU antiparasitic.ckpt_fold3,0.47072774
+bertGRU antiparasitic.ckpt_fold4,1.4383776
+bertGRU antiparasitic.ckpt_fold5,1.4790545
+bertGRU antiparasitic.ckpt_fold6,0.49651226
+bertGRU antiparasitic.ckpt_fold7,1.5004427
+bertGRU antiparasitic.ckpt_fold8,1.485256
+bertGRU antiparasitic.ckpt_fold9,0.48182705
+bertGRU antiparasitic.ckpt_fold10,0.47437155

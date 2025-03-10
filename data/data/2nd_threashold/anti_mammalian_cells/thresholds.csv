@@ -1,0 +1,11 @@
+weight_file,threshold
+bertGRU anti_mammalian_cells.ckpt_fold1,0.60783225
+bertGRU anti_mammalian_cells.ckpt_fold2,0.6324778
+bertGRU anti_mammalian_cells.ckpt_fold3,0.7101077
+bertGRU anti_mammalian_cells.ckpt_fold4,0.54832244
+bertGRU anti_mammalian_cells.ckpt_fold5,0.57147604
+bertGRU anti_mammalian_cells.ckpt_fold6,0.61180246
+bertGRU anti_mammalian_cells.ckpt_fold7,0.54832244
+bertGRU anti_mammalian_cells.ckpt_fold8,0.61380446
+bertGRU anti_mammalian_cells.ckpt_fold9,0.6044983
+bertGRU anti_mammalian_cells.ckpt_fold10,0.57147604

@@ -1,0 +1,11 @@
+weight_file,threshold
+bertGRU antimrsa.ckpt_fold1,0.48517162
+bertGRU antimrsa.ckpt_fold2,0.48662
+bertGRU antimrsa.ckpt_fold3,0.5002058
+bertGRU antimrsa.ckpt_fold4,0.49300903
+bertGRU antimrsa.ckpt_fold5,0.479224
+bertGRU antimrsa.ckpt_fold6,0.5002058
+bertGRU antimrsa.ckpt_fold7,0.49300903
+bertGRU antimrsa.ckpt_fold8,0.479224
+bertGRU antimrsa.ckpt_fold9,0.47420707
+bertGRU antimrsa.ckpt_fold10,0.4689553

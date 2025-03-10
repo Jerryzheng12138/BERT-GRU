@@ -1,0 +1,11 @@
+weight_file,threshold
+bertGRU antiviral.ckpt_fold1,0.52115744
+bertGRU antiviral.ckpt_fold2,0.36407492
+bertGRU antiviral.ckpt_fold3,0.57301265
+bertGRU antiviral.ckpt_fold4,0.58678055
+bertGRU antiviral.ckpt_fold5,0.57301265
+bertGRU antiviral.ckpt_fold6,0.67850304
+bertGRU antiviral.ckpt_fold7,0.3154243
+bertGRU antiviral.ckpt_fold8,0.3154243
+bertGRU antiviral.ckpt_fold9,0.5097011
+bertGRU antiviral.ckpt_fold10,0.69659746
